@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-restaurant-webapp/static/css/main.d4082ff2.css",
-    "main.js": "/react-restaurant-webapp/static/js/main.6143e434.js",
+    "main.js": "/react-restaurant-webapp/static/js/main.e8420c0a.js",
     "static/js/787.26da9b02.chunk.js": "/react-restaurant-webapp/static/js/787.26da9b02.chunk.js",
     "static/media/welcome.png": "/react-restaurant-webapp/static/media/welcome.723e52d36732126fa795.png",
     "static/media/ambience.jpg": "/react-restaurant-webapp/static/media/ambience.8b318e0aa2b30e0a977d.jpg",
@@ -9,14 +9,15 @@
     "static/media/Food2.jpg": "/react-restaurant-webapp/static/media/Food2.5e76d1030d726ab5f598.jpg",
     "static/media/Food3.jpeg": "/react-restaurant-webapp/static/media/Food3.5f4451ca789183e8050c.jpeg",
     "static/media/logos.png": "/react-restaurant-webapp/static/media/logos.1316ef50d84b10ee5041.png",
+    "static/media/havana_logo.png": "/react-restaurant-webapp/static/media/havana_logo.fd06e689ed87619d8bd9.png",
     "static/media/DeliveryImg.png": "/react-restaurant-webapp/static/media/DeliveryImg.0fbebbdbfc53d67bdd8f.png",
     "index.html": "/react-restaurant-webapp/index.html",
     "main.d4082ff2.css.map": "/react-restaurant-webapp/static/css/main.d4082ff2.css.map",
-    "main.6143e434.js.map": "/react-restaurant-webapp/static/js/main.6143e434.js.map",
+    "main.e8420c0a.js.map": "/react-restaurant-webapp/static/js/main.e8420c0a.js.map",
     "787.26da9b02.chunk.js.map": "/react-restaurant-webapp/static/js/787.26da9b02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4082ff2.css",
-    "static/js/main.6143e434.js"
+    "static/js/main.e8420c0a.js"
   ]
 }
