@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Box, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography, styled } from '@mui/material'
 import CustomButton from '../CustomButton/CustomButton'
-import logo from '../../assets/logo.png'
+import havanaLogo from '../../assets/havana_logo.png'
 import MenuIcon from '@mui/icons-material/Menu'
 import FeaturedPlayListIcon from '@mui/icons-material/FeaturedPlayList'
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices'
@@ -11,6 +11,9 @@ import { useNavigate } from 'react-router-dom'
 
 function Header() {
 
+    const handleClick = ()=>{
+        window.open('https://github.com/SanjaySekharipuram','_blank')
+    }
     const [mobileMenu, setMobileMenu] = useState({ left: false })
     const toggleDrawer = (anchor, open) => (event) => {
         if (event.type == 'keydown' && event.type === 'Tab' || event.type === 'Shift') {
@@ -93,6 +96,9 @@ function Header() {
     }))
 
     const NavBarLogo = styled('img')(({ theme }) => ({
+        width:'75px',
+        height:'25',
+        objectFit: 'cover',
         cursor: 'pointer',
         [theme.breakpoints.down('md')]: {
             display: 'none'
@@ -139,7 +145,7 @@ function Header() {
                             list('left')
                         }
                     </Drawer>
-                    <NavBarLogo src={logo} alt='logo' />
+                    <NavBarLogo  onClick={handleClick} src={havanaLogo} alt='logo' />
                 </Box>
 
                 <NavBarLinksBox>

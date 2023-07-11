@@ -1,11 +1,14 @@
 import { Box, Container, Typography, styled } from '@mui/material'
 import React from 'react'
-import logo from '../../assets/logo.png'
+import havanaLogo from '../../assets/havana_logo.png'
 import starLogo from '../../assets/Star.png'
 import parntersLogo from '../../assets/logos.png'
 
 const Partner = () => {
 
+    const handleClick = ()=>{
+        window.open('https://github.com/SanjaySekharipuram','_blank')
+    }
     const CustomContainer = styled(Container)(({theme})=>({
         display:'flex',
         justifyContent:'space-between',
@@ -27,7 +30,7 @@ const Partner = () => {
         <Box sx={{mt:10}}>
             <CustomContainer>
                 <CustomBox>
-                    <img src={logo} alt='logo' style={{maxWidth:'100%'}}/>
+                    <img src={havanaLogo} alt='logo' style={{maxWidth:'30%',cursor:'pointer'}} onClick={handleClick}/>
                     <Typography variant='body2' sx={{
                         color:'#7d8589',
                         fontSize:'14px',
